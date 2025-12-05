@@ -1,0 +1,49 @@
+@import './variables.scss';
+
+.header {
+
+
+    .navig {
+        background-color: #ffffff;
+        padding: 1rem 2rem;
+        height: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+
+    }
+
+
+    img {
+        height: 25px;
+        width: 80px;
+    }
+
+
+    .nav-links {
+
+        list-style: none;
+        display: flex;
+        gap: 1.5rem;
+
+
+        li {
+            a {
+                text-decoration: none;
+                color: $primary;
+
+                &:hover {
+                    color: $secondary;
+                }
+            }
+
+            cursor: pointer;
+            transition: color 0.3s ease;
+
+
+        }
+    }
+
+}
