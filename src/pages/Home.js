@@ -1,21 +1,44 @@
 import React from 'react'
 import profile from '../images/profileImg.png'
+import images from '../images/index.js'
 import '../styles/home.css'
 import Header from '../components/Header'
 
 const Home = () => {
   return (
-    <div className='hero-banner'>
-      <Header/>
-        <section >
-            <div className='dev-profile'>
-                <img src={profile}/>
-            </div>
-            <div>
-                <h1>Hi, I'm Elewa Kelachi</h1>
-                <p>Frontend Developer</p>
-            </div> 
+    <div className='hero'>
+      <Header />
+
+      <section className='hero-banner'>
+
+        <div className='circle-bg'>
+          <div className='circle1'>
+            <img src={images.image1} />
+          </div>
+          <div className='circle2'>
+            <img src={images.image2} />
+          </div>
+          <div className='circle3'>
+            <img src={images.image3} />
+          </div>
+        </div>
+
+        <div className='dev-profile'>
+          <img src={profile} />
+        </div>
+
+
+
+        <div className='hero-text'>
+          <p className='intro'>Hello, I'm <span>Elewa Kelachi</span></p>
+          <p>Frontend Web Developer</p>
+        </div>
+
+        <section className='img-bg'>
+
         </section>
+
+      </section>
     </div>
   )
 }

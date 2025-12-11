@@ -1,7 +1,10 @@
 @import './variables.scss';
 
 .header {
-
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 
     .navig {
         background-color: #ffffff;
@@ -13,37 +16,42 @@
         align-items: center;
         text-align: center;
 
-    }
+        img {
+            height: 25px;
+            width: 80px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+
+            .nav-list {
+
+                list-style: none;
+                display: flex;
+                gap: 1.5rem;
 
 
-    img {
-        height: 25px;
-        width: 80px;
-    }
+                li {
+                    a {
+                        text-decoration: none;
+                        color: $primary;
+
+                        &:hover {
+                            color: $secondary;
+                        }
+                    }
+
+                    cursor: pointer;
+                    transition: color 0.3s ease;
 
 
-    .nav-links {
-
-        list-style: none;
-        display: flex;
-        gap: 1.5rem;
-
-
-        li {
-            a {
-                text-decoration: none;
-                color: $primary;
-
-                &:hover {
-                    color: $secondary;
                 }
             }
 
-            cursor: pointer;
-            transition: color 0.3s ease;
-
-
         }
     }
+
+
 
 }

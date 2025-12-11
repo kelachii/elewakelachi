@@ -13,8 +13,8 @@ const Header = () => {
                     <img src={logo} alt='logo' />
                 </NavLink></div>
 
-                <div>
-                    <ul className='nav-links'>
+                <div className='nav-links'>
+                    <ul className='nav-list'>
 
                         <li>
                             <Link>Home</Link>
@@ -37,9 +37,10 @@ const Header = () => {
                         </li>
 
                     </ul>
-                </div>
 
+                </div>
                 <Button />
+
             </nav >
         </div >
     )
