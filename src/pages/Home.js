@@ -1,6 +1,6 @@
 import React from 'react'
-import profile from '../assets/images/profileImg.png'
-import images from '../assets/images/index.js'
+import profile from '../images/profileImg.png'
+import images from '../images/index.js'
 import '../styles/home.css'
 import Header from '../components/Header'
 
