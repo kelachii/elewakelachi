@@ -1,6 +1,6 @@
 import React from 'react'
-import profile from '../images/profileImg.png'
-import images from '../images/index.js'
+import profile from '../assets/images/profileImg.png'
+import images from '../assets/images/index.js'
 import '../styles/home.css'
 import Header from '../components/Header'
 
@@ -30,13 +30,11 @@ const Home = () => {
 
 
         <div className='hero-text'>
-          <p className='intro'>Hello, I'm <span>Elewa Kelachi</span></p>
-          <p>Frontend Web Developer</p>
+          <p className='hero-text-intro'>Hello, I'm <span> Elewa Kelachi </span></p>
+          <p className='hero-text-title'>Frontend Web Developer</p>
+          <p className='hero-text-note'>I build fast, responsive, and user-friendly web interfaces.
+Turning ideas into clean code and seamless experiences.</p>
         </div>
-
-        <section className='img-bg'>
-
-        </section>
 
       </section>
     </div>

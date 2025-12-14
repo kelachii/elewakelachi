@@ -9,7 +9,7 @@
     .navig {
         background-color: #ffffff;
         padding: 1rem 2rem;
-        height: 80px;
+        height: 5rem;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -22,8 +22,6 @@
         }
 
         .nav-links {
-            display: flex;
-            gap: 1.5rem;
 
             .nav-list {
 

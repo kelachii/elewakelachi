@@ -2,10 +2,10 @@
 
 .hero {
     height: 820px;
+    background: linear-gradient(180deg, #138086 -444.92%, rgba(19, 128, 134, 0.03) 100%);
 
     .hero-banner {
         /* Hero BG */
-        background: linear-gradient(180deg, #138086 -444.92%, rgba(19, 128, 134, 0.03) 100%);
 
 
         // BG images
@@ -41,18 +41,6 @@
             }
 
 
-
-
-
-
-
-            // .circle3 {
-            //     position: absolute;
-            //     width: 200px;
-            //     height: 200px;
-            //     left: 1100px;
-            //     top: 300px;
-            // }
         }
 
         /* Developer Photo */
@@ -72,23 +60,41 @@
         /*Hero txt */
 
         .hero-text {
-            width: 606px;
+            padding-top: 21.06rem;
+            padding-left: 6.5rem;
 
-            .intro {
-                font-family: 'DM Serif Display';
+            &-intro {
+                font-family: $primary-font;
                 font-weight: 400;
                 font-size: 3.75rem;
-                width: 606px;
                 color: #062628;
 
                 span {
                     color: $primary;
                 }
-
-                p {
-                    font-size: 2.81rem;
-                }
             }
+
+            &-title {
+                font-family: $primary-font;
+                font-weight: 400;
+                font-size: 2.81rem;
+                color: $primary;
+                margin-top: 2.5rem;
+                
+            }
+
+            &-note {
+                font-family: $secondary-font;
+                font-weight: 400;
+                font-size: 1.25rem;
+                line-height: 2rem;
+                text-align: justify;
+                color: $text-color;
+                width: 27.75rem;
+                margin-top: 2.5rem;
+            }
+
+
         }
 
 
